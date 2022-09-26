@@ -23,6 +23,7 @@ namespace Polyclinic
             spendTime = peopleInLine * vanishTime;
             hoursToWait = spendTime / minutesPerHour;
             minutesToWait = spendTime % minutesPerHour;
+
             Console.WriteLine();
             Console.WriteLine($"Выйдя из транса Вы понимаете, что состаритесь в этой очереди на {hoursToWait} часа и {minutesToWait} минут.");
         }
